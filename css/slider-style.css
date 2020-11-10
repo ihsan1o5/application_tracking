@@ -1,0 +1,28 @@
+
+    .swiper-container {
+      width: 100%;
+      padding-bottom: 50px;
+      z-index: 0;
+    }
+    .swiper-container > h3{
+      text-align: center;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 250px;
+      background: #44CF6C;
+    }
+    .swiper-slide:hover{
+      background: green;
+    }
+    .swiper-slide a{
+      text-decoration: none;
+      color: white;
+    }
+    .swiper-slide h5{
+      text-align: center;
+      padding: 20px 5px 10px 5px;
+      font-weight: bold;
+      font-size: 1.5em;
+    }

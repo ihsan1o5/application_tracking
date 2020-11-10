@@ -1,0 +1,192 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #F6F8FA;
+	font-family: Comic Sans MS;
+}
+.container{
+	margin-top: 5px;
+}
+.banner #uomlogo{
+	position: absolute;
+}
+. .logo{
+	color: white;
+}
+.navbar{
+	width: 100%;
+	height: 70px;
+	background: #44CF6C;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+.navbar ul{
+	list-style-type: none;
+	margin-top: 10px;
+}
+.navbar ul li{
+	display: inline;
+}
+.navbar ul li a{
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	text-decoration: none;
+}
+.navbar ul li a:hover{
+	color: blue;
+}
+.navbar ul li i{
+	font-weight: bold;
+	color: #fff;
+	font-size: 20px;
+}
+.navbar ul li > input{
+	background: #44CF6C;
+	border: none;
+	border-bottom: 2px solid white;
+	outline: none;
+}
+
+.button-tabs .btn-new1{
+	background: #ccc;
+	padding: 30px;
+	text-align: center;
+	margin-top: 20px;
+	border-radius: 20px;
+	background: green;
+}
+.button-tabs .btn-new1:hover{
+	background: #ccc;
+}
+.button-tabs .btn-new1 a{
+	color: white;
+	text-decoration: none;
+}
+.button-tabs .btn-new2{
+	background: #ccc;
+	padding: 30px;
+	text-align: center;
+	margin-top: 20px;
+	border-radius: 20px;
+	background: blue;
+}
+.button-tabs .btn-new2 a{
+	color: white;
+	text-decoration: none;
+}
+.button-tabs .btn-new2:hover{
+	background: #ccc;
+}
+.vc{
+	margin-top: 30px;
+}
+.vc h4{
+	text-align: center;
+	padding-top: 20px;
+}
+.application-form{
+	background: #fff;
+	margin-top: 30px;
+	border-radius: 10px;
+	font-family: Georgia;
+}
+.application-form .appli-form{
+	display: none;
+}
+.application-form .choice-button{
+	margin: auto;
+	width: 95%;
+}
+.application-form .choice-button > .choice-form{
+	background: yellow;
+	margin-bottom: 20px;
+	padding: 20px;
+	font-size: 25px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.application-form .choice-button > .choice-form:hover{
+	font-size: 30px;
+	font-weight: bolder;
+	color: steelblue;
+}
+.application-form .choice-button > .choice-file{
+	background: green;
+	padding: 20px;
+	font-size: 25px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.application-form .choice-button > .choice-file:hover{
+	font-size: 30px;
+	font-weight: bolder;
+	color: steelblue;
+}
+.application-form .form-attach{
+	padding: 20px;
+	margin-bottom: 30px;
+	display: none;
+}
+.application-form h1{
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+.application-form .app-head p{
+	margin-left: 13px;
+}
+.application-form img{
+	margin-top: 15px;
+}
+.application-form #form-app{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.application-form label{
+	padding-left: 13px;
+}
+.application-form textarea{
+	border: none;
+}
+.application-form input{
+	border: none;
+}
+.application-form .last-note{
+	color: blue;
+	font-family: Source Sans Pro;
+	margin-bottom: 40px;
+}
+.all-application-form{
+	width: 100%;
+	background: #fff;
+	margin-top: 50px;
+	border-radius: 10px;
+}
+.all-application-form .top{
+	text-align: center;
+	padding: 20px;
+}
+.footer{
+	width: 100%;
+	height: 60px;
+	background: #44CF6C;
+	margin-top: 40px;
+}
+.footer .footer-contents{
+	text-align: center;
+	padding-top: 15px;
+}
+.all-applications{
+	width: 90%;
+	margin: auto;
+	padding-bottom: 20px;
+}
+.application-form .captions{
+	display: none;
+}
